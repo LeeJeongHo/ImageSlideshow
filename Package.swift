@@ -47,6 +47,8 @@ let package = Package(
             resources: [
                 .copy("Assets/ic_cross_white@2x.png"),
                 .copy("Assets/ic_cross_white@3x.png"),
+                .copy("Assets/photoDownloadBtn@2x.png"),
+                .copy("Assets/photoDownloadBtn@3x.png"),
             ]),
         .target(
             name: "ImageSlideshowAlamofire",
